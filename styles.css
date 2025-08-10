@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: #1F2232;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-size: 76px;
+    font-family: copperplate, papyrus, fantasy;
+    color: #FDF7FA;
+    border-bottom: 10px ridge #B8CDF8;
+}
+
+ul {
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #1F2232;
+    list-style-type: none;
+}
+
+.recipe {
+    text-align: center;
+    background-image: linear-gradient(#E2C044, #FDF7FA, #B98389); 
+    border: 10px solid #FDF7FA;
+    border-radius: 25px;
+    margin: 30px;
+    margin-top: 0;
+    box-shadow: -10px -10px 8px #B8CDF8;
+}
+
+.recipeLink {
+    font-size: 50px;
+    margin: 0px;
+    display: block;
+    padding: 100px;
+    text-decoration: none;
+    font-family: papyrus, copperplate, fantasy;
+    color: #E2C044;
+}
+
+.recipe:hover {
+    background-image: linear-gradient(#E2C044, #B98389); 
+}
